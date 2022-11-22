@@ -1,0 +1,135 @@
+{
+    "took" : 2968,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 152,
+      "successful" : 152,
+      "skipped" : 136,
+      "failed" : 0
+    },
+    "hits" : {
+      "max_score" : null,
+      "hits" : [ ]
+    },
+    "aggregations" : {
+      "model" : {
+        "doc_count_error_upper_bound" : 0,
+        "sum_other_doc_count" : 0,
+        "buckets" : [
+          {
+            "key" : "CompVis/stable-diffusion-v1-4",
+            "doc_count" : 65375,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-08-22T00:00:00.000Z",
+                  "key" : 1661126400000,
+                  "doc_count" : 109,
+                  "total_downloads" : {
+                    "value" : 114.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-29T00:00:00.000Z",
+                  "key" : 1661731200000,
+                  "doc_count" : 108,
+                  "total_downloads" : {
+                    "value" : 122.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-09-05T00:00:00.000Z",
+                  "key" : 1662336000000,
+                  "doc_count" : 6403,
+                  "total_downloads" : {
+                    "value" : 7316.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-09-12T00:00:00.000Z",
+                  "key" : 1662940800000,
+                  "doc_count" : 5456,
+                  "total_downloads" : {
+                    "value" : 6428.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-09-19T00:00:00.000Z",
+                  "key" : 1663545600000,
+                  "doc_count" : 1932,
+                  "total_downloads" : {
+                    "value" : 2240.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-09-26T00:00:00.000Z",
+                  "key" : 1664150400000,
+                  "doc_count" : 2408,
+                  "total_downloads" : {
+                    "value" : 2874.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-10-03T00:00:00.000Z",
+                  "key" : 1664755200000,
+                  "doc_count" : 1127,
+                  "total_downloads" : {
+                    "value" : 1865.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-10-10T00:00:00.000Z",
+                  "key" : 1665360000000,
+                  "doc_count" : 569,
+                  "total_downloads" : {
+                    "value" : 781.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-10-17T00:00:00.000Z",
+                  "key" : 1665964800000,
+                  "doc_count" : 4240,
+                  "total_downloads" : {
+                    "value" : 6158.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-10-24T00:00:00.000Z",
+                  "key" : 1666569600000,
+                  "doc_count" : 2760,
+                  "total_downloads" : {
+                    "value" : 3720.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-10-31T00:00:00.000Z",
+                  "key" : 1667174400000,
+                  "doc_count" : 29581,
+                  "total_downloads" : {
+                    "value" : 57754.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-11-07T00:00:00.000Z",
+                  "key" : 1667779200000,
+                  "doc_count" : 10641,
+                  "total_downloads" : {
+                    "value" : 26913.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-11-14T00:00:00.000Z",
+                  "key" : 1668384000000,
+                  "doc_count" : 41,
+                  "total_downloads" : {
+                    "value" : 72.0
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+  
